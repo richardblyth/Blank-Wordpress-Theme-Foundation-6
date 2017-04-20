@@ -1,0 +1,73 @@
+/* Menus */
+
+/* Main/header menu */
+.main-menu {
+  div {
+    ul {
+      li {
+        a { 
+
+          &:hover, 
+          &:active {
+          }
+
+          &:visited {
+          }
+        }
+
+        &.current-menu-item,
+        &.current-page-parent {
+          a {
+          }
+        }
+
+        &.menu-item-has-children {
+          ul {
+            li {
+              a {
+
+                &:hover, 
+                &:active {
+                }
+
+                &:visited {
+                }
+              }
+
+              &.current-menu-item,
+              &.current-page-parent {
+                a {
+                }
+              }        
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Footer menu */
+.footer-menu {
+  div {
+    ul {
+      li {
+        a {
+
+          &:hover, 
+          &:active {
+          }
+
+          &:visited {
+          }
+        }
+
+        &.current-menu-item,
+        &.current-page-parent {
+          a {
+          }
+        }
+      }
+    }
+  }
+}

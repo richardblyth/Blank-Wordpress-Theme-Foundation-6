@@ -1,0 +1,21 @@
+/* Slick Carousels - Theme */
+/* These classes override those in slick.scss */
+
+/* Example markup 
+<div class="row">
+  <div class="example-carousel">
+    <div>Slide 1</div>
+    <div>Slide 2</div>
+    <div>Slide 3</div>
+  </div>
+</div>
+
+Initialise the carousel in apps.js -
+
+$('.example-carousel').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  arrows: true
+});
+*/

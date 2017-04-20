@@ -1,0 +1,23 @@
+#Simple Website Boilerplate 
+This boilerplate has been designed to provide the very basic structure for building a new WordPress theme using Foundation 6
+
+##Features
+* HTML5
+* CSS3
+* PHP includes structure
+* Built using Foundation Sites
+* Uses jQuery 2.1.4
+* Modernizr
+* Normalize.css
+* SASS/CSS structure
+
+
+**SASS**
+There is one main SASS file - app.scss which outputs to /css/app.css - this is the only CSS file included in the site. Foundation SASS can be imported seletively (as required) or all at once via app.scss
+
+/scss/foundation/_settings.scss - use this file to change Foundation variables e.g. row width, padding etc.
+
+**JS**
+There is one main JS file - /js/build/app.js which outputs to /js/dist/app-dist.js - this is included at the end of the document. There are two other JavaScript files included in the <head> : Modernizr and the jQuery library.
+
+Note: All CSS and JavaScript is loaded in the functions.php file.

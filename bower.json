@@ -1,0 +1,22 @@
+{
+  "name": "blank-wordpress-foundation-6",
+  "authors": [
+    "Rich Blyth"
+  ],
+  "description": "A blank WordPress theme built on Zurb Foundation 6",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "foundation-sites": "^6.3.1"
+  }
+}
